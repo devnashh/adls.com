@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .welcome-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .welcome-heading {
+            margin: 0;
+        }
+
+        .welcome-subheading {
+            margin: 0;
+            font-weight: bold;
+            color: #343a40; /* Optional: change the color as needed */
+        }
+    </style>
+    <script>
+        // Redirect to the next page after 5 seconds
+        setTimeout(function() {
+            window.location.href = 'archangels.html'; // Replace 'nextpage.html' with the URL of the next page
+        }, 5000);
+    </script>
+</head>
+<body>
+    <div class="container welcome-container">
+        <div class="row">
+            <div class="col-12">
+                <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/cardio.js"></script>
+                <l-cardio size="50" stroke="4" speed="2" color="black"></l-cardio>
+                <h1 class="welcome-heading">Welcome to,</h1>
+                <h1 class="welcome-subheading">ARCHANGELS DIAGNOSTIC & LABORATORY</h1>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
